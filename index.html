@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD_MEDIA</title>
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <div>
+        <div class="content">
+            <img class="img" src="images/logo.jpeg" alt="">
+            <br></br>
+            <h3 class="by">by IMMAD SAIT</h3>
+            <br></br>
+            <h3 class="dev">Developer:- Ashwin Raj</h3>
+        </div>
+    </div> 
+
+    <video autoplay muted loop>
+        <source src="production_id_4822908 (1080p).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+<button class="button" onclick="Menu()">Menu</button>
+
+<script>
+    function Menu() {
+        // Replace the URL with the desired link
+        window.open('http://127.0.0.1:5500/Menu.html', '_blank');
+    }
+</script>
+
+</body>
+</html>

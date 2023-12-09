@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order & Delivery</title>
+    <link rel="stylesheet" href="style2.css">
+    <button class="button" onclick="HELP()">HELP</button>
+
+
+</head>
+<body>
+
+    <header class="by">
+        <img class="Logo" src="images/logo.jpeg" alt="logo">
+        <h5>by Immad sait</H5>
+        <h2>Developer:- Ashwin Raj</h2>
+        </header>
+
+    <section>
+        <h2 class="Menu">Menu</h2>
+        
+        <div id="menu">
+            <!-- Sample menu items -->
+            <div class="menuItem">
+                <img align="left" src="images/menu/classic.jpeg" alt="classic cheese sandwich">
+                <h3>Classic Cheese sandwich</h3>
+                <p> ₹ 100</p>
+                <button class="addtocart" onclick="addToCart('classic cheese sandwich', 100)">Add to Cart</button>
+            </div>
+
+            <div class="menuItem">
+                <img align="left" src="images/menu/cheese.jpeg" alt="Corn n sandwich">
+                <h3>Corn n Cheese sandwich</h3>
+                <p>₹ 110</p>
+                <button class="addtocart" onclick="addToCart('Corn n sandwich', 110)">Add to Cart</button>
+            </div>
+
+           <div class="menuItem">
+                <img align="left" src="images/menu/chicken.jpeg" alt="Chicken sandwich">
+                <h3>Chicken sandwich</h3>
+                <p> ₹ 170</p>
+                <button class="addtocart" onclick="addToCart('chicken sandwich', 170)">Add to Cart</button>
+            </div>
+
+            <div class="menuItem">
+                <img align="left" src="images/menu/nachos.jpeg" alt="nachos sandwich">
+                <h3>Nachos sandwich</h3>
+                <p> ₹ 90</p>
+                <button class="addtocart" onclick="addToCart('nachos sandwich', 90)">Add to Cart</button>
+            </div>
+
+            <div class="menuItem">
+                <img align="left" src="images/menu/veg.jpeg" alt="veg cheese grilled sandwich">
+                <h3>Veg Cheese Grilled sandwich</h3>
+                <p> ₹ 130</p>
+                <button class="addtocart" onclick="addToCart('veg cheese grilled sandwich', 130)">Add to Cart</button>
+            </div>
+
+            <div class="menuItem">
+                <img align="left" src="images/menu/mystery.jpeg" alt="mystery sandwich">
+                <h3>Mystery sandwich</h3>
+                <p> ₹ 120</p>
+                <button class="addtocart" onclick="addToCart('mystery sandwich', 120)">Add to Cart</button>
+            </div>
+            <BR></BR>
+            <BR></BR>
+        </section>
+<section>
+<DIV class="by">
+    <h3>PIZZA</h3>
+</DIV>
+        <div id="menu">
+            <!-- Sample menu items -->
+            <div class="menuItem">
+                <img align="left" src="images/menu/pan.jfif" alt="panner pizza">
+                <h3>Panner pizza</h3>
+                <p> ₹ 130</p>
+                <button class="addtocart" onclick="addToCart('Panner pizza', 130)">Add to Cart</button>
+            </div>
+
+            <div class="menuItem">
+                <img align="left" src="images/menu/cheesep.jfif" alt="Classic cheese pizza">
+                <h3>Classic cheese pizza</h3>
+                <p>₹ 100</p>
+                <button class="addtocart" onclick="addToCart('Classic cheese pizza', 100)">Add to Cart</button>
+            </div>
+
+           <div class="menuItem">
+                <img align="left" src="images/menu/chickenp.jfif" alt="Chicken pizza">
+                <h3>Chicken pizza</h3>
+                <p> ₹ 180</p>
+                <button class="addtocart" onclick="addToCart('Chicken pizza', 180)">Add to Cart</button>
+            </div>
+
+            <div class="menuItem">
+                <img align="left" src="images/menu/vegp.jfif" alt="veggie pizza">
+                <h3>Veggie pizza</h3>
+                <p> ₹ 150</p>
+                <button class="addtocart" onclick="addToCart('Veggie pizza', 150)">Add to Cart</button>
+            </div>
+
+            <div class="menuItem" ">
+                <img style="height:200PX;" align="left" src="images/menu/tomap.jfif" alt="Tomato pizza">
+                <h3>Tomato pizza</h3>
+                <p> ₹ 80</p>
+                <button class="addtocart" onclick="addToCart('Tomato pizza', 80)">Add to Cart</button>
+            </div>
+
+</section>
+
+<section>
+
+    <DIV class="by">
+        <h2>FAST FOOD</h2>
+        <BR></BR>
+        <h3>BURGER</h3>
+    </DIV>
+            <div id="menu">
+                <!-- Sample menu items -->
+                <div class="menuItem">
+                    <img style="height:250PX;" align="left" src="images/menu/chickenp.jfif" alt="Crispy chicken burger">
+                    <h3>Crispy chicken burger</h3>
+                    <p> ₹ 130</p>
+                    <button class="addtocart" onclick="addToCart('Crispy chicken burger', 130)">Add to Cart</button>
+                </div>
+    
+                <div class="menuItem">
+                    <img align="left" src="images/menu/vegb.jfif" alt="Veg burger">
+                    <h3>Veg burger</h3>
+                    <p>₹ 100</p>
+                    <button class="addtocart" onclick="addToCart('Veg burger', 100)">Add to Cart</button>
+                </div>
+    
+               <div class="menuItem">
+                    <img style="height:200PX;" align="left" src="images/menu/kukub.jfif" alt="kukure burger">
+                    <h3>Kukure burger</h3>
+                    <p> ₹ 110</p>
+                    <button class="addtocart" onclick="addToCart('Kukure burger', 110)">Add to Cart</button>
+                </div>
+    
+                <div class="menuItem">
+                    <img style="height:200PX;" align="left" src="images/menu/zingerb.jfif" alt="Zinger burger">
+                    <h3>Zinger burger</h3>
+                    <p> ₹ 150</p>
+                    <button class="addtocart" onclick="addToCart('Zinger burger', 150)">Add to Cart</button>
+                </div>
+    
+                <div class="menuItem">
+                    <img style="height:200PX;" align="left" src="images/menu/doubleb.jfif" alt="Double down burger">
+                    <h3>Double down burger</h3>
+                    <p> ₹ 180</p>
+                    <button class="addtocart" onclick="addToCart('Double down burger', 180)">Add to Cart</button>
+                </div>
+</section>
+
+<section >
+    <DIV class="by">
+        <H2 class="by">JUICE</H2>
+        <BR></BR>
+        <h3>PIZZA</h3>
+    </DIV>
+            <div id="menu">
+                <!-- Sample menu items -->
+                <div class="menuItem1">
+                    
+                    <h3>Watermelon juice</h3>
+                    <p> ₹ 40</p>
+                    <button class="addtocart" onclick="addToCart('Watermelon juice', 40)">Add to Cart</button>
+                </div>
+    
+                <div class="menuItem1">
+                    
+                    <h3>ORGANE juice</h3>
+                    <p>₹ 40</p>
+                    <button class="addtocart" onclick="addToCart('ORGANE juice', 40)">Add to Cart</button>
+                </div>
+    
+               <div class="menuItem1">
+                    
+                    <h3>Lemonade</h3>
+                    <p> ₹ 30</p>
+                    <button class="addtocart" onclick="addToCart('Lemonade', 30)">Add to Cart</button>
+                </div>
+    
+                <div class="menuItem1">
+                    
+                    <h3>Pineapple juice</h3>
+                    <p> ₹ 50</p>
+                    <button class="addtocart" onclick="addToCart('Pineapple juice', 50)">Add to Cart</button>
+                </div>
+</section>
+<section >
+
+            <div class="by">
+                <h2>SODA</h2>
+            </div>
+    
+                <div class="menuItem1" >
+                    
+                    <h3>Sweet Lemon Soda</h3>
+                    <p> ₹ 70</p>
+                    <button class="addtocart" onclick="addToCart('Sweet Lemon Soda', 70)">Add to Cart</button>
+                </div>
+
+                <div class="menuItem1">
+                    
+                    <h3>Blue Lagoon</h3>
+                    <p> ₹ 70</p>
+                    <button class="addtocart" onclick="addToCart('Blue Lagoon', 70)">Add to Cart</button>
+                </div>
+
+</section>
+<section>
+
+            <div class="by">
+                <h2>TEA & COFFEE</h2>
+            </div>
+    
+                <div class="menuItem1">
+                    
+                    <h3>Cold Coffee</h3>
+                    <p>₹ 50</p>
+                    <button class="addtocart" onclick="addToCart('Cold Coffee', 50)">Add to Cart</button>
+                </div>
+    
+               <div class="menuItem1">
+                    
+                    <h3>Masala TEA</h3>
+                    <p> ₹ 15</p>
+                    <button class="addtocart" onclick="addToCart('Masala TEA', 15)">Add to Cart</button>
+                </div>
+    
+                <div class="menuItem1">
+                    
+                    <h3>Filter Coffee</h3>
+                    <p> ₹ 15</p>
+                    <button class="addtocart" onclick="addToCart('Filter Coffee', 15)">Add to Cart</button>
+                </div>
+    
+    </section>
+    
+
+<section align="right"class="cart">
+    
+        <h2>Shopping Cart</h2>
+
+        <!-- Add input fields for name, phone number, and address -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number">
+
+        <label for="address">Address:</label>
+        <textarea id="address" placeholder="Enter your address"></textarea>
+
+        <ul id="cart"></ul>
+        <p>Total: ₹<span id="total">0.00</span></p>
+        <button onclick="checkout()">Checkout</button>
+         <!-- Add the Cancel Order button -->
+         <button id="cancelOrderBtn" onclick="cancelOrder()" style="display: none;">Cancel Current Order</button>
+    
+
+</section>
+
+
+<script>
+    // Add your JavaScript functions here
+    let cart = [];
+    let total = 0;
+    let orderPlaced = false;
+
+    // Define the hotel address (replace with the actual hotel address)
+    const hotelAddress = "123 Main Street, Cityville, State, Country";
+
+    function addToCart(item, price) {
+        cart.push({ item, price });
+        updateCart();
+    }
+
+    function updateCart() {
+        const cartList = document.getElementById('cart');
+        const totalAmount = document.getElementById('total');
+        cartList.innerHTML = "";
+        cart.forEach(item => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${item.item} - ₹${item.price.toFixed(2)}`;
+            cartList.appendChild(listItem);
+        });
+        total = cart.reduce((acc, item) => acc + item.price, 0);
+        totalAmount.textContent = total.toFixed(2);
+    }
+
+    function calculateDeliveryCharge(receiverAddress) {
+        // Calculate the distance between hotel and receiver (considering it's a straight-line distance)
+        const distance = calculateDistance(hotelAddress, receiverAddress);
+
+        // Fixed charge of $30 plus $15 per km
+        const deliveryCharge = 30 + (15 * distance);
+        return deliveryCharge;
+    }
+
+    function calculateDistance(address1, address2) {
+        // In a real-world scenario, you would use a proper distance calculation method
+        // Here, we're just assuming a constant distance of 1 km for demonstration purposes
+        return 1;
+    }
+
+    function checkout() {
+        const name = document.getElementById('name').value;
+        const phone = document.getElementById('phone').value;
+        const address = document.getElementById('address').value;
+
+        // Check if the required information is provided
+        if (!name || !phone || !address || cart.length === 0) {
+            alert('Please fill in all the required fields and add items to the cart.');
+            return;
+        }
+
+        // Calculate the total amount
+        total = cart.reduce((acc, item) => acc + item.price, 0);
+
+        // Apply weekend discount (50% off) if it's a weekend
+        const today = new Date();
+        const dayOfWeek = today.getDay(); // Sunday is 0, Monday is 1, ..., Saturday is 6
+
+        if (dayOfWeek === 0 || dayOfWeek === 6) { // 0 is Sunday, 6 is Saturday
+            total *= 0.5; // Apply 50% off on weekends
+        }
+
+        // Calculate delivery charge
+        const deliveryCharge = calculateDeliveryCharge(address);
+
+        // Add delivery charge to the total
+        total += deliveryCharge;
+
+        // Construct the message for SMS
+        let message = `Order Details:\nName: ${name}\nPhone: ${phone}\nAddress: ${address}\n\nCart:\n`;
+        cart.forEach(item => {
+            message += `${item.item} - ₹${item.price.toFixed(2)}\n`;
+        });
+        message += `\nTotal: ₹${total.toFixed(2)} (including ₹${deliveryCharge.toFixed(2)} delivery charge)`;
+
+        // Send SMS using Twilio
+        sendSMS(message);
+
+        // Set the orderPlaced flag to true
+        orderPlaced = true;
+
+        // Display the Cancel Order button
+        document.getElementById('cancelOrderBtn').style.display = 'block';
+
+        // Set a timeout for 2 minutes to hide the Cancel Order button
+        setTimeout(() => {
+            orderPlaced = false;
+            document.getElementById('cancelOrderBtn').style.display = 'none';
+        }, 120000); // 2 minutes in milliseconds
+
+        // Reset the cart and form fields
+        cart = [];
+        updateCart();
+        document.getElementById('name').value = '';
+        document.getElementById('phone').value = '';
+        document.getElementById('address').value = '';
+
+        alert(`Order placed successfully!\n${message}`);
+    }
+
+    function sendSMS(message) {
+    // Replace these values with your Twilio credentials
+    const accountSid = 'ACdce239fbc0cda1f7c7c11f9fa038b6a5';
+    const authToken = '01b9954fd4dc9287ce41d57ce39bcf3f';
+    const twilioPhoneNumber = '+19124212308';
+    const recipientPhoneNumber = '+918431894677'; // Replace with recipient's phone 
+
+
+        // Send SMS using Twilio API
+        fetch(`https://api.twilio.com/2010-04-01/Accounts/${accountSid}/Messages.json`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'Authorization': 'Basic ' + btoa(`${accountSid}:${authToken}`)
+            },
+            body: new URLSearchParams({
+                'To': recipientPhoneNumber,
+                'From': twilioPhoneNumber,
+                'Body': message
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+        })
+        .catch(error => {
+            console.error('Error sending SMS:', error);
+        });
+    }
+
+    function cancelOrder() {
+        // Check if an order has been placed and if it's within the 2-minute window
+        if (orderPlaced) {
+            const confirmation = confirm('Are you sure you want to cancel the current order?');
+            if (confirmation) {
+                // Send cancellation SMS
+                sendSMS('Order cancelled. We hope to serve you next time!');
+
+                // Hide the Cancel Order button
+                document.getElementById('cancelOrderBtn').style.display = 'none';
+                orderPlaced = false;
+            }
+        } else {
+            alert('No order to cancel or the time window has expired.');
+        }
+    }
+
+    function HELP() {
+        // Replace the URL with the desired link
+        window.open('http://127.0.0.1:5500/HELP.html', '_blank');
+    }
+</script>
+ 
+    
+</body>
+</html>
